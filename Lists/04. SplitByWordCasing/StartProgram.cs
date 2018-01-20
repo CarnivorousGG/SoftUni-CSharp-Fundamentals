@@ -18,7 +18,7 @@ namespace _04.SplitByWordCasing
         static void Main(string[] args)
         {
             List<string> textInput = Console.ReadLine() //get input
-                .Split(new[] { ',', ';', ':', '.', '!', '(', ')', '"', '\'', '\\', '/', '[', ']', ' ', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries) //adding the separators
+                ?.Split(new[] { ',', ';', ':', '.', '!', '(', ')', '"', '\'', '\\', '/', '[', ']', ' ', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries) //adding the separators
                 .ToList(); 
 
             //creating 3 new lists for the results
