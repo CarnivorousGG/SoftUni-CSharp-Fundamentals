@@ -11,14 +11,14 @@ namespace _05.Sort_Numbers
     {
         static void Main(string[] args)
         {
-            List <int> numbers = Console.ReadLine()
-                .Split()
-                .Select(int.Parse)
-                .ToList();
+            char a = '{';
+            char b = '}';
 
-            numbers.Sort();
-
-            Console.WriteLine(string.Join(" <= ", numbers));
+            if (a == b)
+            {
+                System.Console.WriteLine("yes");
+            }
+            System.Console.ReadLine();
         }
     }
 }
